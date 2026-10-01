@@ -1,0 +1,17 @@
+*.exe
+*.test
+*.out
+*.prof
+/bin/
+/dist/
+coverage.*
+
+payer.json
+*keypair*.json
+.env
+.env.*
+
+.DS_Store
+.idea/
+.vscode/
+*.swp
