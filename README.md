@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://pkg.go.dev/github.com/orbitflare/orbitflare-apex-go"><img src="https://img.shields.io/badge/go.dev-reference-informational?style=flat-square" alt="Go reference"></a>
   <a href="https://go.dev/dl/"><img src="https://img.shields.io/badge/go-1.26%2B-informational?style=flat-square" alt="Go 1.26+"></a>
+  <a href="https://docs.orbitflare.com/apex/go-client"><img src="https://img.shields.io/badge/docs-go%20client-informational?style=flat-square" alt="Docs"></a>
   <a href="https://apex.orbitflare.com"><img src="https://img.shields.io/badge/apex.orbitflare.com-website-informational?style=flat-square" alt="apex.orbitflare.com"></a>
 </p>
 
@@ -17,7 +18,8 @@ validator clients, Jito bundles and the leader TPUs at once.
 
 It has the same features as the Rust crate
 [`orbitflare-apex`](https://crates.io/crates/orbitflare-apex), the same wire
-format and the same client certificate, byte for byte.
+format and the same client certificate, byte for byte. See the
+[docs](https://docs.orbitflare.com/apex/go-client) for examples of every route.
 
 - **QUIC**: one persistent connection per endpoint, a client certificate
   derived from your API key (the key itself never crosses the wire), one
